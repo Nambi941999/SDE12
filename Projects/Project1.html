@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        .header {
+            width: 100%;
+            height: 15%;
+            padding: 10px;
+            background-color: aqua;
+            position: relative;
+
+        }
+
+        .branding {
+            width: 20%;
+        }
+
+        .social {
+            margin-left: 300px;
+        }
+
+        a {
+            padding: 8px;
+            margin: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+
+        }
+
+        .menu {
+            text-align: center;
+
+        }
+
+        ul li {
+            display: inline-block;
+            padding-top: 8px;
+        }
+
+        a:hover {
+            background-color: yellow;
+            border-radius: 30%;
+
+
+        }
+
+        h2 {
+            text-align: center;
+            position: relative;
+            top: 20px;
+            font-style: italic;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+
+
+        }
+
+        .card {
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            float: left;
+            margin-left: 15px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.2s;
+
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            transform: scale(1.09);
+        }
+
+        .cardContainer {
+            padding: 2px 16px;
+        }
+
+        .footer {
+            background-color: grey;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            top: 150%;
+
+
+
+        }
+
+        @media only screen and (max-width: 800px) {
+            .main {
+                width: 100%;
+            }
+
+            .header {
+                height: 18%;
+            }
+
+            .social {
+                margin-left: 150px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="branding">
+                <h2>BRANDING</h2>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://twitter.com/">Twitter</a>
+                <hr>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><input type="search" placeholder="SEARCH">
+                        <input type="submit" value="search">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <img src="developer2.jpeg" alt="">
+
+            <div class="card">
+                <img src="frontend.jpeg" style="width: 90%;" alt="">
+                <div class="cardContainer">
+                    <h4><b>FRONTEND DEVELOPER</b></h4>
+                    <p>Frontend Enginner.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="backend.jpeg" style="width: 90%;" alt="">
+                <div class="cardContainer">
+                    <h4><b>BACKEND DEVELOPER</b></h4>
+                    <p>Java, Springboot.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="fullStack.jpeg" style="width: 90%;" alt="">
+                <div class="cardContainer">
+                    <h4><b>FULLSTACK DEVELOPER</b></h4>
+                    <p> fullStack Developer.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>example@gmail.com</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
