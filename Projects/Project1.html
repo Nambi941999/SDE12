@@ -106,7 +106,7 @@
 
         }
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (min-device-width: 200px) and (max-width: 650px) {
             .main {
                 width: 100%;
             }
@@ -121,12 +121,11 @@
             .card,.container img, .footer{
                 width: 100%;
             }
-            /* .container img{
-                width: 100%;
-            }
             .footer{
                 width: 100%;
-            } */
+                position: absolute;
+                top: 250vh;
+            }
 
 
         }
@@ -166,7 +165,7 @@
                 <img src="frontend.jpeg" style="width: 90%;" alt="">
                 <div class="cardContainer">
                     <h4><b>FRONTEND DEVELOPER</b></h4>
-                    <p>Frontend Enginner.</p>
+                    <p>Frontend developer.</p>
                 </div>
             </div>
 
