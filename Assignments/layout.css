@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 1000px;
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    height: 150px;
+    width: 1200px;
+}
+.branding{
+    height: 150px;
+    width: 400px;
+    background-color: antiquewhite;
+    float: left;
+}
+.branding img{
+    height: 150px;
+    width: 400px;
+}
+.socialmedia{
+    height: 100px;
+    width: 800px;
+    float: left;
+}
+.socialmedia img{
+    width: 50px;
+    margin-left: 100px;  
+    margin-top: 20px;  
+}
+.menu{
+    height: 50px;
+    width: 800px;
+    background-color: yellowgreen;
+    float: left;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    background-color: whitesmoke;
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height:25px;
+    text-align: center;
+}
+
+.menu ul a{
+    color: black;
+}
+
+.container{
+    height: 800px;
+    width: 1200px;
+}
+.imggallery{
+    height: 400px;
+    width: 1200px;
+    overflow: scroll;   
+}
+.imggallery img{
+    height: 400px;
+    width: 1200px;
+}
+.course img{
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+
+.footer{
+    height: 50px;
+    width: 1200px;
+    background-color: silver;
+    
+}
+.footer h3{
+    text-align: center;
+    line-height: 50px;
+}
+
